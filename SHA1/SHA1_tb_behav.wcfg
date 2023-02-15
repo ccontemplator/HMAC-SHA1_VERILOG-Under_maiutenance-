@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SHA1_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SHA1_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="10481666fs"></ZoomStartTime>
+      <ZoomEndTime time="11103667fs"></ZoomEndTime>
+      <Cursor1Time time="10912666fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/SHA1_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_req" type="logic">
+      <obj_property name="ElementShortName">SHA1_req</obj_property>
+      <obj_property name="ObjectShortName">SHA1_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/plain_text" type="array">
+      <obj_property name="ElementShortName">plain_text[447:0]</obj_property>
+      <obj_property name="ObjectShortName">plain_text[447:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/size" type="array">
+      <obj_property name="ElementShortName">size[8:0]</obj_property>
+      <obj_property name="ObjectShortName">size[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/task_done" type="logic">
+      <obj_property name="ElementShortName">task_done</obj_property>
+      <obj_property name="ObjectShortName">task_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/wait_counter" type="array">
+      <obj_property name="ElementShortName">wait_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/hashed_text" type="array">
+      <obj_property name="ElementShortName">hashed_text[159:0]</obj_property>
+      <obj_property name="ObjectShortName">hashed_text[159:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/step_counter" type="array">
+      <obj_property name="ElementShortName">step_counter[6:0]</obj_property>
+      <obj_property name="ObjectShortName">step_counter[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/SHA1_input_text" type="array">
+      <obj_property name="ElementShortName">SHA1_input_text[511:0]</obj_property>
+      <obj_property name="ObjectShortName">SHA1_input_text[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w_string" type="array">
+      <obj_property name="ElementShortName">w_string[639:0]</obj_property>
+      <obj_property name="ObjectShortName">w_string[639:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w0" type="array">
+      <obj_property name="ElementShortName">w0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w1" type="array">
+      <obj_property name="ElementShortName">w1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w2" type="array">
+      <obj_property name="ElementShortName">w2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w9" type="array">
+      <obj_property name="ElementShortName">w9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w13" type="array">
+      <obj_property name="ElementShortName">w13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w16" type="array">
+      <obj_property name="ElementShortName">w16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w16[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w17" type="array">
+      <obj_property name="ElementShortName">w17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w17[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w18" type="array">
+      <obj_property name="ElementShortName">w18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w18[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w19" type="array">
+      <obj_property name="ElementShortName">w19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w19[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/w_i" type="array">
+      <obj_property name="ElementShortName">w_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/CONFIG_wait" type="array">
+      <obj_property name="ElementShortName">CONFIG_wait[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CONFIG_wait[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/round" type="array">
+      <obj_property name="ElementShortName">round[1:0]</obj_property>
+      <obj_property name="ObjectShortName">round[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SHA1_tb/SHA1_ins/sha_round_ins/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+</wave_config>

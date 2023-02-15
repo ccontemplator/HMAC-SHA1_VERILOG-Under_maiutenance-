@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.srcs/sim_1/new/SHA1_tb.v,1676452226,verilog,,,,SHA1_tb,,,,,,,,
+C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.srcs/sources_1/new/SHA1_round.v,1676456093,verilog,,C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.srcs/sources_1/new/Top_SHA1.v,,SHA1_round,,,,,,,,
+C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.srcs/sources_1/new/Top_SHA1.v,1676446512,verilog,,C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.srcs/sim_1/new/SHA1_tb.v,,Top_SHA1,,,,,,,,

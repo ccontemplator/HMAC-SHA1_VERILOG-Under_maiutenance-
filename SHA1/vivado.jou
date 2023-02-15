@@ -1,0 +1,92 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Feb 15 17:27:37 2023
+# Process ID: 1340
+# Current directory: C:/Users/USER/Xilinx/FPGA_lab/SHA1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20932 C:\Users\USER\Xilinx\FPGA_lab\SHA1\SHA1.xpr
+# Log file: C:/Users/USER/Xilinx/FPGA_lab/SHA1/vivado.log
+# Journal file: C:/Users/USER/Xilinx/FPGA_lab/SHA1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source SHA1_tb.tcl
+run 10 us
+run 1 us
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/req}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/wait_counter}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w0}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w1}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w2}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w9}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w13}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w_i}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w_string}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/step_counter}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/round}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/state}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/SHA1_input_text}} 
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/CONFIG_wait}} 
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w16}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w17}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w18}} 
+current_wave_config {Untitled 1}
+add_wave {{/SHA1_tb/SHA1_ins/sha_round_ins/w19}} 
+relaunch_sim
+run 10 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1_tb_behav.wcfg
+set_property xsim.view C:/Users/USER/Xilinx/FPGA_lab/SHA1/SHA1_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/freq_divider/freq_divider.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/I2C_EEPROM/I2C_EEPROM.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/led_flash/led_flash.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/I2C_EEPROM/I2C_EEPROM.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/PWM_PCIE/PWM_PCIE.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/USER/Xilinx/FPGA_lab/key_debounce/key_debounce.xpr
+update_compile_order -fileset sources_1

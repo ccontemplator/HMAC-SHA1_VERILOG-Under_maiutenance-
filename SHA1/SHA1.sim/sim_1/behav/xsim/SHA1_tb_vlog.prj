@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SHA1.srcs/sources_1/new/SHA1_round.v" \
+"../../../../SHA1.srcs/sources_1/new/Top_SHA1.v" \
+"../../../../SHA1.srcs/sim_1/new/SHA1_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
