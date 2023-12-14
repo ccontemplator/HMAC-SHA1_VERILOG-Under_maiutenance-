@@ -4,4 +4,4 @@ The SHA1 algorithm is done, however with a little modification, so the hashed te
 
 The difference lies in the non-blocking assignments of the w0~w79, incurring the discrepancies with the stardand SHA-1 outcome.
 
-HMAC module will be made in the future.
+NOTE: Under maintenace, still recovering codes from the broken SSD.
